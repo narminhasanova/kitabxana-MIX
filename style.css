@@ -1,0 +1,15 @@
+.box{
+    justify-content: center;
+}
+
+.book-box{
+    padding: 15px;
+    padding-bottom: 0px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.book-box img{
+    width: 100%;
+}

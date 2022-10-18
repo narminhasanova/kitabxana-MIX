@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="script-book.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row box">
+            <div class="col-3">
+                <form action="#" id="qeydiyyat">
+                    <div class="mb-3">
+                        <label for="book-name" class="form-label">Kitabın adı:</label>
+                        <input type="text" class="form-control" id="book-name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastname" class="form-label">Kitabın janrı:</label>
+                        <input type="text" class="form-control" id="book-genre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Kitabın qiyməti:</label>
+                        <input type="number" class="form-control" id="book-price" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="book-seller" class="form-label">Satıcı:</label>
+                        <input type="text" class="form-control" id="book-seller" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" class="form-control btn btn-primary" value="Əlavə et">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row books-section">
+            <!-- <div class="col-2">
+                <div class="book-box">
+                    <img src="book-photo-1.jpeg" alt="">
+                    <p>Kitabın adı:</p>
+                    <p>Janr:</p>
+                    <p>Qiymət:</p>
+                    <p>Satıcı:</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
